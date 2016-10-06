@@ -1,0 +1,16 @@
+*{font-size: 18px;}
+
+h1{font-size: 2em;
+    color: aquamarine;}
+p{font-size: 0.8em;
+    color: chocolate;}
+
+h2{font-size: 1.5em;
+    color: cornflowerblue; }
+
+.post{background-color: aqua;}
+.post1{background-color: yellow;}
+
+/*id為準 class會被id完全蓋過去  不會管順序問題*/
+/*一般的class的話會被相同名稱後面蓋過前面的內容*/
+#post{background-color: darkcyan;}
