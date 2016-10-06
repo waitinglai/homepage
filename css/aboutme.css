@@ -1,0 +1,58 @@
+/*nav設定*/
+.nav  .container {
+    line-height: 65px;
+    background-color:#1a1a1a;
+    background-size: contain;
+    height:60px;
+}
+
+.link{
+    color: #428bca;
+    font-size: 25px;
+    background-color: black;
+}
+
+.link:hover{
+    color: #e6b800;
+    font-size: 30px;
+    background-color: black;
+}
+
+/*main設定*/
+.main{
+    background-color:#d9d9d9;
+    height:1000px;
+}
+
+.main .header img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 0 auto;
+    position: absolute;
+    top:200px;
+    left: 500px;
+}
+
+.main .profile{
+    font-size: 40px;
+    position: absolute;
+    top:200px;
+    left: 800px; 
+}
+
+.main .person{
+    padding: 10px;
+}
+
+
+/*footer設定*/
+footer{
+  height: 60px;
+  line-height: 80px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+}
