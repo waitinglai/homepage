@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="renderer" content="webkit">
+    <title>首頁</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="bootstrap-3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css"> </head>
+
+<body>
+<!-- nav -->
+    <nav class="nav navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="pull-left  col-md-9">
+                <!-- <li> -->
+                    <a href="index.html">
+                      <span class="glyphicon glyphicon-home"></span>Home
+                    </a>
+                <!-- </li> -->
+                <li><a href="aboutme.html">About me</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Homework
+                       <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="20160830/index.html">20160830</a></li>
+                      <li><a href="20160902/index.html">20160902</a></li>
+                      <li><a href="20160909/index.html">20160906</a></li>
+                      <li><a href="20160913/rwd.html">20160913</a></li>
+                      <li><a href="20160920/bootstrap.html">20160920</a></li>
+                      <li><a href="20160923/0923-練習2/bootstrap.html">20160923</a></li>
+                      <li><a href="20160930/CSS3/css3animation.html">20160930</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="pull-right col-md-3">
+                <li><a href=iphone.html>MyIphone</a></li>
+                <li><a href="#food">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+<!-- header -->
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="wow wobble">Welcome !</h1>
+            <a href="aboutme.html">
+               <img src="images/sloth1.jpg" class="wow rubberBand"  data-wow-delay="1s" alt="找不到圖片">
+            </a>
+        </div>
+    </div>
+
+<!-- 主要食物介紹 -->
+<div class="main">
+    <h1>好吃的美食都在這裡</h1>
+    <p>自己去吃過的各式各樣好吃的食物,特色明確,吃過後會念念不忘,一吃再吃</p>
+    <!-- row1 -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="row">
+         <div class="col-md-4">
+           <div class="thumbnail place"> <img src="images/hotpot.jpg" alt="找不到圖片">
+             <div class="caption">
+                 <h1>momo paradise</h1>
+                 <p>日式壽喜燒吃到飽,口味獨特,含有許多火鍋料、甜點、飲料，讓顧客有更多的選擇,獨創的「鮮蔬菜車」，由服務員送到桌邊以供點選，讓消費者享受貴賓般的服務。</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail place"> <img src="images/meat.jpg" alt="找不到圖片">
+             <div class="caption">
+                 <h1>約克頂級燒肉</h1>
+                 <p>讓許多人都說是全台北最好吃最高級最高檔的燒肉,這裡用的食材很講究,設備真的很優,完全不會有煙霧瀰漫、空氣很差的情況,很適合公司聚餐、朋友聚餐、家庭聚餐的好地方,外面還有永康商圈的view可以欣賞,還有週末活動的三位帥哥,他們會幫忙烤肉,還會幫來個壁咚告白呢！</p>
+             </div>
+           </div>
+         </div>
+         <div class="col-md-4">
+           <div class="thumbnail place"> <img src="images/korea.jpg" alt="找不到圖片">
+             <div class="caption">
+                 <h1>兩餐韓國年糕</h1>
+                 <p>韓國原汁原味進口的年糕鍋吃到飽，而且還能吃一頓飽兩餐,湯底還可以搭配炒飯吃兩餐，另外還有自煮泡麵吃到飽，根本就是三餐來著!多一份必點的雙色起司，湯底醬料還可自行調整搭配，讓你吃得既飽足又滿足啊!</p>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+   </div>
+   <!-- row2 -->
+   <div class="row">
+     <div class="col-md-12">
+       <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail place"> <img src="images/burger.jpg" alt="找不到圖片">
+              <div class="caption">
+                  <h1>發福廚房</h1>
+                  <p>台灣創始花生醬牛肉堡,知名火烤美式漢堡,超邪惡花生醬牛肉漢堡！並以堅持不加一滴油的專業火烤烹調與自製新鮮醬料及食材手工現做，將完美比例的澳洲純牛肩胛肉以 500°F 炙烤逼出多餘油脂，讓牛肉的原味及香氣完全散發！</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail place"> <img src="images/goodluck.jpg" alt="找不到圖片">
+              <div class="caption">
+                  <h1>添好運</h1>
+                  <p>『連續7年獲得米其林一星肯定』─添好運的美味傳奇！添好運是一間著名的香港點心店，以「即叫即蒸」的烹飪堅持，提供食客新鮮、現做、美味的飲食饗宴；最受歡迎的酥皮焗叉燒包、香煎蘿蔔糕、香滑馬來糕與黃沙豬潤腸並列「四大天王」，充分展現港式點心新鮮現做的特色與主廚們深厚的烹飪功力。</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail place"> <img src="images/pig.jpg" alt="找不到圖片">
+              <div class="caption">
+                  <h1>杏子豬排</h1>
+                  <p>透過食物讓顧客感受真實的感動,「銀座杏子日式豬排」的豬肉採用經ATOM在台工廠全程品管篩選、熟成的台灣溫體豬肉，相關沾料和配方亦在ATOM的技術指導下製作完成，讓消費者在台灣就能感受頂級的日式豬排。</p>
+              </div>
+            </div>
+          </div>
+       </div>
+     </div>
+    </div>
+</div>
+
+
+<!-- 圖片特效 -->
+    <div class="neighborhood-guides">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div class="thumbnail wow bounceInLeft"><img src="images/meat2.jpg"alt=""></div>
+                   <div class="thumbnail wow bounceInUp"><img src="images/hotpot2.jpg"alt=""></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="thumbnail wow bounceInDown"><img src="images/burger2.jpg"alt=""></div>
+                    <div class="thumbnail wow bounceInRight"><img src="images/korea2.jpg"alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- 底部資訊 點一下連結到官網 -->
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-6" id="food">
+                        <h3>☆火鍋吃到飽</h3>
+                        <img src="images/icon1.png" alt="找不到圖片" />
+                        <p><a href="https://www.facebook.com/pages/Mo-Mo-Paradise/176257279083366?fref=ts">想吃嗎？點我</a></p>
+                    </div>
+                    <div class="col-md-2 col-xs-6" id="food">
+                        <h3>☆高級的燒肉</h3>
+                        <img src="images/icon5.png" alt="找不到圖片" />
+                        <p><a href="https://www.facebook.com/YORKBBQ/?fref=ts">想吃嗎？點我</a></p>
+                    </div>
+                    <div class="col-md-2 col-xs-6" id="food">
+                        <h3>☆年糕無限吃</h3>
+                        <img src="images/icon6.png" alt="找不到圖片" />
+                        <p><a href="https://www.facebook.com/-%E5%85%A9%E9%A4%90-%EB%91%90%EB%81%BC-%E9%9F%93%E5%9C%8B%E5%B9%B4%E7%B3%95%E7%81%AB%E9%8D%8B%E5%90%83%E5%88%B0%E9%A3%BD-1599278623725144/?fref=ts">想吃嗎？點我</a></p>
+                    </div>
+                    <div class="col-md-2 col-xs-6" id="food">
+                        <h3>☆邪惡花生醬</h3>
+                        <img src="images/icon2.png" alt="找不到圖片" />
+                        <p><a href="https://www.facebook.com/bravoburger.tw/?fref=ts">想吃嗎？點我</a></p>
+                    </div>
+                    <div class="col-md-2 col-xs-6" id="food">
+                        <h3>☆港式好料理</h3>
+                        <img src="images/icon4.png" alt="找不到圖片" />
+                        <p><a href="https://www.facebook.com/timhowan.taiwan/?fref=ts">想吃嗎？點我</a></p>
+                    </div>
+                    <div class="col-md-2 col-xs-6" id="food">
+                        <h3>☆豬排大份量</h3>
+                        <img src="images/icon3.png" alt="找不到圖片" />
+                        <p><a href="https://www.facebook.com/pages/%E6%9D%8F%E5%AD%90%E6%97%A5%E5%BC%8F%E8%B1%AC%E6%8E%92%E5%BA%97/191908794169667?fref=ts">想吃嗎？點我</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!-- footer -->
+    <footer>©2016 Copyright by Wei-Ting Lai </footer>
+
+    <script src="javascript/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
