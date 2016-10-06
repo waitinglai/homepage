@@ -25,21 +25,21 @@
 }
 
 .main .header img{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     border: 3px solid white;
     margin: 0 auto;
     position: absolute;
     top:200px;
-    left: 500px;
+    left: 400px;
 }
 
 .main .profile{
-    font-size: 40px;
+    font-size: 25px;
     position: absolute;
     top:200px;
-    left: 800px; 
+    left: 800px;
 }
 
 .main .person{
