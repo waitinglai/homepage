@@ -1,0 +1,197 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>title</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> </head>
+
+<body>
+    <!-- 輪播結合jumbotron-->
+    <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <!--圖片輪播放這邊-->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h1>Hello World</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolor commodi aut veniam voluptatum voluptatibus, provident nesciunt pariatur! Accusamus ipsum in quia optio animi culpa inventore quisquam, commodi eaque officia? </p>
+                                <buttton class="btn btn-primary">Read more</buttton>
+                            </div>
+                            <div class="col-md-7"> <img src="images/sloth.jpg" alt="flash"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <h1>Hello World</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, dolor commodi aut veniam voluptatum voluptatibus, provident nesciunt pariatur! Accusamus ipsum in quia optio animi culpa inventore quisquam, commodi eaque officia? </p>
+                                <buttton class="btn btn-primary">Read more</buttton>
+                            </div>
+                            <div class="col-md-7"> <img src="images/pic.jpg" alt="flash"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--左右控制鍵-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span> </a>
+            <a href="#slideshow" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span> </a>
+        </div>
+        <!--下面的點點-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+        </ol>
+    </div>
+
+<!--breadcrumb麵包削-->
+    <ul class="breadcrumb">
+        <li><a href="">parent</a></li>
+        <li class="active"><a href="">this page</a></li>
+    </ul>
+
+
+<!--    navbar-->
+   <nav class="nav navbar-inverse navbar-fixed-top">
+     <div class="container-fluid">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+        </button>
+
+        <a href="" class="navbar-brand ">
+           <span class="glyphicon glyphicon-home"></span>
+           brand
+        </a>
+
+      </div>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="nav navbar-nav">
+           <li><a href="">page1</a></li>
+           <li><a href="">page2</a></li>
+           <li><a href="">page3</a></li>
+           <li><a href="">page4</a></li>
+       </ul>
+       <ul class="nav navbar-nav navbar-right">
+           <li>
+             <a href="">
+              <span class="glyphicon glyphicon-user"></span>
+              login
+             </a>
+           </li>
+           <li><a href="">help</a></li>
+       </ul>
+      </div>
+     </div>
+   </nav>
+
+    <div class="main">
+      <div class="row">
+<!--       左邊區塊-->
+       <div class="col-md-9">
+       <div class="row">
+        <div class="col-md-4">
+            <div class="thumbnail"> <img src="images/lion.jpg" alt="">
+                <div class="caption">
+                    <h1>title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsam et rerum maxime, vero soluta cum libero quasi quidem ullam accusantium magni, inventore voluptatum, deserunt iure laboriosam illum explicabo harum!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail"> <img src="images/sloth2.png" alt="">
+                <div class="caption">
+                    <h1>title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsam et rerum maxime, vero soluta cum libero quasi quidem ullam accusantium magni, inventore voluptatum, deserunt iure laboriosam illum explicabo harum!</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail"> <img src="images/clawhauser.jpg" alt="">
+                <div class="caption">
+                    <h1>title</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsam et rerum maxime, vero soluta cum libero quasi quidem ullam accusantium magni, inventore voluptatum, deserunt iure laboriosam illum explicabo harum!</p>
+                </div>
+            </div>
+        </div>
+        </div>
+       </div>
+<!--       右邊區塊-->
+       <div class="col-md-3">
+<!--          stacked堆疊-->
+           <ul class="nav nav-pills  nav-stacked">
+               <li><a href="">menu1</a></li>
+               <li><a href="">menu2</a></li>
+               <li><a href="">menu3</a></li>
+           </ul>
+<!--           nav tab-->
+           <ul class="nav nav-tabs">
+               <li class="active">
+                 <a href="#tab1" data-toggle="tab">tab1</a>
+               </li>
+               <li>
+                 <a href="#tab2" data-toggle="tab">tab2</a>
+               </li>
+               <li>
+                 <a href="#tab3" data-toggle="tab">tab3</a>
+               </li>
+
+<!--               下拉式選單-->
+               <li class="dropdown">
+                 <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                   drop
+                   <span class="caret"></span>
+                 </a>
+                 <ul class="dropdown-meun">
+                     <li><a href="">menu1</a></li>
+                     <li><a href="">menu2</a></li>
+                     <li><a href="">menu3</a></li>
+                 </ul>
+               </li>
+           </ul>
+           <div class="tab-content">
+               <div class="tab-pane active" id="tab1">
+                   <p>Lorem ipsum dolor sit amet.</p>
+               </div>
+               <div class="tab-pane" id="tab2">
+                   <p>vitae! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, vitae!</p>
+               </div>
+               <div class="tab-pane" id="tab3">
+                   <p>Lorem ipsum.</p>
+                   <div class="thumnnail"><img src="images/lion.jpg" alt=""></div>
+               </div>
+           </div>
+       </div>
+    </div>
+      <div class="row">
+
+         <div class="col-md-4 col-md-offset-4">
+           <div class="thunbnail head">
+               <img src="images/sloth.jpg" alt="">
+               <p>Created by:</p>
+               <p>Flash</p>
+           </div>
+         </div>
+
+      </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    width: 100%;
+    background-color: blue;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+    background-color: aqua;
+}
+
+[class^="col-"] {
+    height: 100px;
+    background-color: #ee4;
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+a {
+    padding: 60px;
+}
+
+a:before {
+    content: url(btn_pdf.jpg);
+}
